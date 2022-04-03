@@ -27,6 +27,17 @@ address {
   --third-basic-color: #ffffff;
 }
 
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.reset {
+  margin: 0;
+  padding: 0;
+}
+
 /*-------------Header------------*/
 
 .header {
@@ -39,6 +50,7 @@ address {
   font-size: 26px;
   line-height: 1.19;
   color: var(--basic-color);
+  margin: 0;
 }
 
 .logo1 {
@@ -46,6 +58,7 @@ address {
 }
 
 .header-nav {
+
 }
 
 .header-list {
@@ -54,6 +67,8 @@ address {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--basic-color);
+  margin: 0;
+  padding: 0;
 }
 
 .header-list:focus,
@@ -70,6 +85,8 @@ address {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
+  margin: 0;
+  padding: 0;
 }
 
 .header-item:focus,
@@ -91,6 +108,9 @@ address {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--third-basic-color);
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
 }
 
 .hero-btn {
@@ -111,18 +131,27 @@ address {
 .text {
 }
 
+.text-list {
+  padding: 0;
+  margin:0 0 95px 0 ;
+}
+
 .text-item-name {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin: 0 0 10px 0;
+  padding: 0;
 }
 
 .text-item {
   font-size: 14px;
   line-height: 1.7;
   color: #757575;
+  padding: 0;
+  margin:0;
 }
 
 /*------------Section-3-do------------*/
@@ -136,12 +165,18 @@ address {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
+  margin: 0 0 50px 0;
+  padding: 0;
 }
 
 .do-list {
+  padding: 0;
+  margin:0 0 190px 0 ;
+
 }
 
 .do-item {
+
 }
 
 /*------------Section-4-team------------*/
@@ -156,13 +191,17 @@ address {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
+  margin: 0 0 50px 0;
+  padding: 0;
 }
 
-.team-list {
+.team-list{
+padding: 0;
+margin: 0;
 }
 
 .team-item {
-}
+ }
 
 .team-person {
   font-weight: 500;
@@ -170,6 +209,8 @@ address {
   line-height: 1.18;
   text-align: center;
   color: var(--basic-color);
+  margin: 30px 0 10px 0;
+  padding: 0;
 }
 
 .team-person-job {
@@ -177,6 +218,8 @@ address {
   line-height: 1.18;
   text-align: center;
   color: #757575;
+  margin: 0;
+  padding: 0;
 }
 
 /*------------Footer------------*/
@@ -201,7 +244,9 @@ address {
   color: var(--third-basic-color);
 }
 
-.footer-list {
+.footer-list{
+margin: 0;
+padding: 0;
 }
 
 .footer-item {
@@ -216,18 +261,38 @@ address {
 .portfolio {
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.prtf-list{
+padding: 0;
+margin:0 0 55px 0;
+}
+
+
 .nav-btn {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
-
   background-color: #f5f4fa;
+  padding: 0;
+  margin: 0;
 }
 
-.btn-prtf :focus,
-.btn-prtf :hover {
+.prtf-btn :focus,
+.prtf-btn :hover {
   background-color: var(--second-basic-color);
   color: var(--third-basic-color);
 }
@@ -243,6 +308,8 @@ address {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--basic-color);
+  margin: 20px 0 5px 0;
+  padding: 0;
 }
 
 .prtf-item {
@@ -250,4 +317,6 @@ address {
   line-height: 1.85;
   letter-spacing: 0.03em;
   color: #757575;
+  margin: 0;
+  padding: 0;
 }
