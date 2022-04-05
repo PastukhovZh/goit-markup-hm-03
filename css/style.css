@@ -1,3 +1,26 @@
+*{
+  box-sizing: border-box;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding-left: auto;
+}
+img {
+  display: block;
+}
+
 a {
   text-decoration: none;
 }
@@ -31,16 +54,15 @@ address {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-}
-
-.reset {
-  margin: 0;
-  padding: 0;
+  margin: 0 auto;
+  border: 1px solid tomato;
 }
 
 /*-------------Header------------*/
 
 .header {
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .logo {
@@ -50,7 +72,7 @@ address {
   font-size: 26px;
   line-height: 1.19;
   color: var(--basic-color);
-  margin: 0;
+
 }
 
 .logo1 {
@@ -67,8 +89,7 @@ address {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--basic-color);
-  margin: 0;
-  padding: 0;
+
 }
 
 .header-list:focus,
@@ -85,8 +106,6 @@ address {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
-  margin: 0;
-  padding: 0;
 }
 
 .header-item:focus,
@@ -98,7 +117,13 @@ address {
 
 .hero {
   background-color: #2f303a;
+  padding: 200px 0;
+  margin: 0;
+}
+
+.hero-list {
   text-align: center;
+
 }
 
 .hero-title {
@@ -108,9 +133,9 @@ address {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--third-basic-color);
-  margin: 0;
+  margin-bottom: 30px;
   padding: 0;
-  margin-bottom: 20px;
+
 }
 
 .hero-btn {
@@ -119,6 +144,7 @@ address {
   line-height: 1.85;
   color: var(--third-basic-color);
   background-color: var(--second-basic-color);
+  
 }
 
 .hero-button :hover,
@@ -129,11 +155,11 @@ address {
 /*------------Section-2------------*/
 
 .text {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .text-list {
-  padding: 0;
-  margin:0 0 95px 0 ;
 }
 
 .text-item-name {
@@ -157,6 +183,7 @@ address {
 /*------------Section-3-do------------*/
 
 .do {
+  padding-bottom: 94px;
 }
 
 .do-title {
@@ -165,14 +192,10 @@ address {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  margin: 0 0 50px 0;
-  padding: 0;
+
 }
 
 .do-list {
-  padding: 0;
-  margin:0 0 190px 0 ;
-
 }
 
 .do-item {
@@ -225,6 +248,7 @@ margin: 0;
 /*------------Footer------------*/
 .footer {
   background-color: #2f303a;
+  padding: 60px;
 }
 
 .footer-logo {
@@ -259,6 +283,8 @@ padding: 0;
 /* ------------PORTFOLIO------------ */
 
 .portfolio {
+  padding-top: 94px;
+  padding-bottom: 114px;
 }
 
 .visually-hidden {
@@ -275,8 +301,8 @@ padding: 0;
 }
 
 .prtf-list{
-padding: 0;
-margin:0 0 55px 0;
+padding-bottom: 50px;
+margin-bottom: 0;
 }
 
 
@@ -287,7 +313,7 @@ margin:0 0 55px 0;
   text-align: center;
   letter-spacing: 0.03em;
   background-color: #f5f4fa;
-  padding: 0;
+  padding: 6px 22px;
   margin: 0;
 }
 
