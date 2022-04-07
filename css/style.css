@@ -390,7 +390,6 @@ flex-direction: column
 .prtf-item{
 display: flex;
 flex-wrap: wrap;
-justify-content: space-between;
 padding:0;
 
 }
@@ -429,6 +428,10 @@ padding:0;
 }
 .prtf-list:nth-child(n + 7){
   margin-bottom: 0;
+}
+.prtf-list{
+  flex-basis: calc(100% / 3 -30px);
+  margin-right: 30px;
 }
 
 .border-prtf{
